@@ -1,0 +1,5 @@
+name: clock
+description: A user form to enter wheather details.
+core: 8.x
+package: Custom
+type: module

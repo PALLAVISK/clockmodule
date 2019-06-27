@@ -1,0 +1,8 @@
+clock.form:
+ path: '/Clock-data'
+ defaults:
+   _title: 'clock form is here'
+   _form: '\Drupal\clock\Form\ClockData'
+ requirements:
+   _permission: 'administer site configuration'
+

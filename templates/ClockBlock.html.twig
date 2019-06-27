@@ -1,0 +1,36 @@
+{{ attach_library('clock/global-styling') }}
+<div class="topwarp">
+
+
+    <div class = "mainwrap" >
+        <div class="tit">
+        <h2>{{ titles }}</h2>
+        </div>
+        <div class="des">
+        <h2>{{ description }}</h2>
+        </div>
+    
+    </div>
+
+
+   
+</div>
+
+<div class="row">
+    <div class="new">
+        <p>DATE</p>
+        {{ datetime }} 
+    </div>
+    <div class="new">
+        <p>DAY</p>
+        {{ day }}
+    </div>
+    <div class="new">
+        <P>TIMEZONE</P>
+        {{ timezone }}
+    </div>
+    <div class="new">
+        <P>ORDINAL</P>
+        {{ ordinal_date }}
+    </div>
+</div>

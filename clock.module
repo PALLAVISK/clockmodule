@@ -1,0 +1,25 @@
+<?php
+
+/**
+ * @file
+ */
+
+/**
+ *
+ */
+function clock_theme() {
+  return [
+    ClockBlock => [
+      'variables' => [
+        'titles' => NULL,
+        'description' => NULL,
+        'datetime' => NULL,
+        'day' => NULL,
+        'timezone' => NULL,
+        'ordinal_date' => NULL,
+      ],
+      'template' => 'ClockBlock',
+    ],
+  ];
+}
+?>

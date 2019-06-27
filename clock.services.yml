@@ -1,0 +1,3 @@
+services:
+  clock.client:
+    class: 'Drupal\clock\ClockService'
